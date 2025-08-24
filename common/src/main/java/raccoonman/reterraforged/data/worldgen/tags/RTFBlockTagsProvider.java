@@ -33,7 +33,7 @@ public class RTFBlockTagsProvider extends IntrinsicHolderTagsProvider<Block> {
 		this.tag(RTFBlockTags.ERODIBLE).add(Blocks.SNOW_BLOCK).add(Blocks.POWDER_SNOW).add(Blocks.GRAVEL).addOptionalTag(BlockTags.DIRT.location());
 		
 //		if(!miscellaneousSettings.oreCompatibleStoneOnly) {
-			this.tag(RTFBlockTags.ROCK).add(Blocks.GRANITE, Blocks.ANDESITE, Blocks.STONE, Blocks.DIORITE);
+			this.tag(RTFBlockTags.ROCK).add(Blocks.DEEPSLATE, Blocks.ANDESITE, Blocks.STONE, Blocks.DIORITE);
 //		} else{
 			//TODO
 //		}
