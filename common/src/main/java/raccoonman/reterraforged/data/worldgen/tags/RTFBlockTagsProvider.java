@@ -29,11 +29,11 @@ public class RTFBlockTagsProvider extends IntrinsicHolderTagsProvider<Block> {
 
 		this.tag(RTFBlockTags.SOIL).add(Blocks.DIRT, Blocks.COARSE_DIRT);
 		this.tag(RTFBlockTags.CLAY).add(Blocks.CLAY);
-		this.tag(RTFBlockTags.SEDIMENT).add(Blocks.SAND, Blocks.GRAVEL);
+		this.tag(RTFBlockTags.SEDIMENT).add(Blocks.DIRT, Blocks.GRAVEL);
 		this.tag(RTFBlockTags.ERODIBLE).add(Blocks.SNOW_BLOCK).add(Blocks.POWDER_SNOW).add(Blocks.GRAVEL).addOptionalTag(BlockTags.DIRT.location());
 		
 //		if(!miscellaneousSettings.oreCompatibleStoneOnly) {
-			this.tag(RTFBlockTags.ROCK).add(Blocks.DEEPSLATE, Blocks.ANDESITE, Blocks.STONE, Blocks.GRASS_BLOCK, Blocks.PACKED_MUD);
+			this.tag(RTFBlockTags.ROCK).add(Blocks.DEEPSLATE, Blocks.ANDESITE, Blocks.DIORITE, Blocks.STONE, Blocks.TUFF, Blocks.SNOW_BLOCK, Blocks.MOSS_BLOCK, Blocks.TERRACOTTA, Blocks.PACKED_MUD);
 //		} else{
 			//TODO
 //		}
